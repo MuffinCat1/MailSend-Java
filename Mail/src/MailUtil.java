@@ -17,8 +17,8 @@ public class MailUtil
 	    properties.put("mail.smtp.auth", true);
 	    properties.put("mail.smtp.starttls.enable", "true");
 		
-		String myAccountEmail = "matanshemaya@gmail.com";
-		String password = "Mnbvcxz3901976!@";
+		String myAccountEmail = "xxxxxx@gmail.com";
+		String password = "xxxxxxxx";
 		
 		Session session = Session.getInstance(properties, new Authenticator()
 		{
