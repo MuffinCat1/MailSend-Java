@@ -46,7 +46,7 @@ public class MailUtil
 			message.setRecipient(Message.RecipientType.TO, new InternetAddress(recepient));
 			message.setSubject("You Won!");
 			
-			//You Can Use message.setText To send Only a text setContent Sending an HTML type text you can use CSS to like in here
+			//You Can Use message.setText To send Only a text setContent Sending an HTML type text you can use CSS too like in here
 			
 			//the string can be whatever you want (;
 			String htmlCode = "<body style=\"background-color: powderblue;\"> \r\n"
